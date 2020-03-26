@@ -29,6 +29,8 @@ url: "https://nsundbaum.github.io" # the base hostname & protocol for your site,
 #github_username:  jekyll
 show_excerpts: True
 
+google_analytics: UA-161975030-1
+
 # Build settings
 theme: minima
 plugins:
