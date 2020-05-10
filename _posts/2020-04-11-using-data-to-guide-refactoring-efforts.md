@@ -20,7 +20,7 @@ Start by calculating how often the source files you want to refactor are modifie
 git log --pretty=format: --name-only | sort | uniq -c | sort -rg
 ```
 
-Next, grade the code quality of the files, either using a metric such as cyclomatic complexity or by assigning it a subjective score according to some scale (e.g. 1-5, good/average/awful, WTFs per minute, etc.).
+Next, grade the code quality of the files, either using a metric such as [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) or by assigning it a subjective score according to some scale (e.g. 1-5, good/average/awful, WTFs per minute, etc.).
 
 Based on the code quality and change frequency, you can now plot this in a graph as illustrated below.
 
@@ -29,7 +29,7 @@ Based on the code quality and change frequency, you can now plot this in a graph
 Divide the graph into four quadrants and let this guide how much time you spend on refactoring.
 
 * Bottom-right. This is where you want to spend most of your total refactoring effort as these are files that are changed a lot and have bad code quality, giving your investment in code quality a higher likelihood of paying off.
-* Bottom-left. Bad code quality, but not very frequently changing files justifies a medium refactoring effort. Why not low, you might ask? After all, these files are not touched very often. Well, this can of course be argued, but in my experience this category adds to the team’s overall cognitive load and reduces their ability to understand and reason about the system as a whole, even though the actual change frequency is low. 
+* Bottom-left. Bad code quality, but not very frequently changing files justifies a medium refactoring effort. Why not low, you might ask? After all, these files are not touched very often. Well, this can of course be argued, but in my experience this category adds to the team’s overall cognitive load and reduces their ability to understand and reason about the system as a whole, even though the actual change frequency is low.
 * Top-right. Good code quality and high change frequency justifies some refactoring, but not that much compared to the previous two quadrants. Due to the diminishing returns of refactoring, the high-value 20% are probably already addressed making further efforts less valuable.
 * Top-left. Good code quality and low change frequency. These are the ones you can safely ignore from a refactoring point of view. By all means adhere to the boy-scout rule and make small adjustments, but don’t place your high stake refactoring bets in the area.
 
