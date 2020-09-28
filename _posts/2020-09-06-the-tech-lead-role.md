@@ -20,4 +20,6 @@ Since it is a role with emphasis on much more than just technical expertise, the
 
 To summarize, the Tech Lead role is a great stepping stone into leadership and a good way of providing scalability to a growing technical organization while at the same time offering more diverse growth opportunities for your employees. However, the responsibilities and focus areas of the role varies a lot from organization to organization. Therefore, it is important to think hard about what the role should look like in your context to match your organization’s needs. And to keep in mind that being a Tech Lead is about much more than just technology. Especially new Tech Leads will require lots of guidance and support to become fully proficient and comfortable in the role.
 
-In an upcoming post, I’ll write more about different flavours of the role and how you can use those to offer more flexibility and tailor the role to your organization’s needs. Stay tuned!
+[In an upcoming post]({% post_url 2020-09-28-three-flavors-of-tech-leads %}), I’ll write more about different flavours of the role and how you can use those to offer more flexibility and tailor the role to your organization’s specific needs. Until then, I can highly recommend [Patrick Kua's blog](https://www.patkua.com/blog/) where there is lots of really good content about the [Tech Lead role](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) as well as other aspects of [technical leadership](https://www.patkua.com/blog/category/leadership/).  
+
+Stay tuned!
